@@ -6,6 +6,11 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+.visually-hidden {
+	color: black;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -71,6 +76,11 @@ body {
 	width: 100%;
 
 }
+
+.carousel-item img {
+	color: black;
+}
+
 #about-me {
 	flex: 2
 }
@@ -102,7 +112,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #7c7640;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
